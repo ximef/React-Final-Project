@@ -1,20 +1,23 @@
 import './mainView.css';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.svg';
+import logoSpotify from '../../assets/spotify-logo-.jpg';
+import logogif from '../../assets/spotify-logo2.gif';
 
 class MainView extends Component {
     render() {
         return (
             <article className="main-view">
                 <header className="main-view__header">
-                    <img src={logo} className="main-view__logo" alt="logo" />
-                    <h2>Welcome to React</h2>
+                    <img src={logoSpotify} className="main-view__logo" alt="logo" />
+                    <h2>Welcome to Spotify Client</h2>
                 </header>
                 <nav className="main-view__nav">
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
+                        <li><Link  className="links" to="/homeView">Home</Link></li>
+                        <li><Link  className="links" to="/artistsListView">Search Artist</Link></li>
+                        <li><Link  className="links" to="/artistView">Artist</Link></li>
+                        <li><Link  className="links" to="/albumView">Album</Link></li>
                     </ul>
                 </nav>
             </article>

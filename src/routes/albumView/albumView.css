@@ -1,0 +1,64 @@
+
+.album-article-principal {
+  text-align: center;
+
+}
+
+.album-inside{
+  margin: 50px 50px 50px 50px;
+}
+
+.album-view__sear{
+  text-align: right;
+}
+
+.album-view__search-query {
+  text-align: left;
+  background: url("../../assets/search.png") no-repeat 0px 0px;
+  padding-left:20px;
+  padding-top: 0;
+  width: 60%;
+  height: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-decoration-color: black;
+  
+}
+
+.album-view__nav{
+  text-align: left;
+}
+
+.album-view__footer{
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  
+}
+
+.album-view__logo {
+  height: 80px;
+}
+
+li{
+  color: white;
+}
+
+.links{
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}

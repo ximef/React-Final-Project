@@ -1,0 +1,88 @@
+h1{
+    color: white;
+   font: 50px sans-serif;
+   font-weight: bold;
+   text-align: center;
+   float: center;
+}
+
+.list-inside{
+  margin: 50px 50px 50px 50px;
+}
+
+.list-view {
+  text-align: center;
+}
+.list-view__logo {
+   border: none;
+  height: 80px;
+}
+
+.list-title{
+  text-align: left;
+  color: white;
+  font-size: 40px;
+}
+
+
+.list-view__header {
+  background-color: #222;
+  width: 100%;
+  height: 80px;
+}
+
+.list-view__title{
+  text-align: center;
+}
+.list-view__s{
+  text-align: left;
+}
+.list-view__search-query {
+  text-align: left;
+  background: url("../../assets/search.png") no-repeat 0px 0px;
+  background-color: #fff;
+  padding-left:20px;
+  padding-top: 0;
+  width: 50%;
+  height: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-decoration-color: black;
+}
+
+.list-view__favourites{
+  text-align: left;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0px 2px;
+    color: white; 
+}
+
+.links{
+  color: white;
+}
+
+hr{
+  border-top: 3px solid #000000;
+}
+.list-view__footer{
+
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  
+}
+.list-view__nav{
+  text-align: left;
+}
+
+.list-text{
+   text-align: left;
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+}

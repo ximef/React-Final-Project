@@ -1,0 +1,94 @@
+.home-article-principal {
+  text-align: center;
+
+}
+
+.home-inside{
+  margin: 50px 50px 50px 50px;
+}
+.home-view__logo {
+  height: 80px;
+}
+.home-view__header {
+  background-color: #000;
+  margin-bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding: 5px;
+}
+
+.home-view__title{
+	text-align: left;
+}
+
+.home-title{
+  text-align: left;
+  color: white;
+  font-size: 40px;
+}
+
+.home-pre-title{
+  text-align: left;
+  color: black;
+  font-size: 30px;
+}
+
+.home-text{
+   text-align: left;
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.home-view__s{
+  text-align: left;
+}
+
+.home-view__search-query {
+  text-align: left;
+  background: url("../../assets/search.png") no-repeat 0px 0px;
+  background-color: #fff;
+  padding-left:20px;
+  padding-top: 0;
+  width: 50%;
+  height: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-decoration-color: black;
+  
+}
+
+.home-view__favourites{
+	text-align: left;
+}
+
+.home-view__nav{
+  text-align: left;
+}
+.home-view__footer{
+	background-color: #000;
+  width: 100%;
+  height: 80px;
+  
+}
+
+#links{
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+
