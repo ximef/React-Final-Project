@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import logogif from '../../assets/spotify-logo2.gif';
 
 class HomeView extends Component {
+
     render() {
         return (
             <article className="home-article-principal">
@@ -16,7 +17,11 @@ class HomeView extends Component {
                     following search box and enjoy!</p>
                 </header>
                 <div className="home-view__s">
-                    <input type="text" className="home-view__search-query" placeholder="Type the name of your favorite artist..." />
+                    <form name="myForm" action="/artistsListView" onSubmit="return validateForm()" method="get">
+                        <input type="text" id="artista" className="home-view__search-query" placeholder="Type the name of your favorite artist..." />
+                        <input type="submit" value="search"/>
+                    </form>
+                    
                 </div>
                 <div className="home-view__favourites">
                     <h3>Favorite Songs</h3>

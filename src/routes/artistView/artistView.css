@@ -1,62 +1,129 @@
-.artist-article-principal {
+.artist-view {
   text-align: center;
+}
+.artist-view__logo {
 
+  float: left;
+  height: 30px;
+  padding-top: 20px;
 }
 
-.artist-inside{
-  margin: 50px 50px 50px 50px;
+.artist-view__header {
+  background-color: #222;
+  width: 100%;
+  height: 80px;
+  padding: 5px;
 }
+.artist-view__info{
+  margin-left: 40%;
+  text-align: left;
+  width: 68%;
+  height: 100px;
+}
+.artist-view__info-logo{
 
-.artist-view__sear{
-  text-align: right;
+  float: left;
+  border: 1px solid black;
+}
+.artist-view__info-title{
+  width: 42%;
+  height: 100%;
+}
+.artist-view__search{
+  float:right;
 }
 
 .artist-view__search-query {
   text-align: left;
   background: url("../../assets/search.png") no-repeat 0px 0px;
+  background-color: #fff;
   padding-left:20px;
   padding-top: 0;
-  width: 60%;
-  height: 20px;
+  margin-left: -200px;
+  padding-left: 25px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #000000;
   text-decoration-color: black;
-  
 }
 
-.artist-view__nav{
-  text-align: left;
+.artist-view__search:before {
+  content: '';
+  display: block;
+  width: 19px;
+  height: 25px;
+  background-position: -50px 0;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  opacity: .5;
+  z-index: 1000;
+}
+.artist-view__results{
+  text-align: center;
 }
 
-.artist-view__footer{
-  background-color: #000;
-  width: 100%;
-  height: 80px;
-}
 
-.artist-view__logo {
-  height: 80px;
-}
-
-li{
-  color:white;
+ul li {
+    display: inline-block;
+    margin: 0px 2px;
+    color: white; 
 }
 
 .links{
   color: white;
 }
+.artist-view__nav{
+  text-align: left;
+}
+hr{
+  border-top: 3px solid #000000;
+}
+.artist-view__footer{
+  width: 100%;
+  height: 10px;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: black;
+/*------------------*/
+
+.box{
+    display: inline-block;
+    width: 45%;
+    height: 90px;
+    border: 1px solid black;
+    margin-right: 9px;
+    margin-bottom: 5px;
+    background-color: white;
 }
-::-moz-placeholder { /* Firefox 19+ */
-  color: black;
+.box-img{
+    height: 87%;
+    width: 40%;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
 }
-:-ms-input-placeholder { /* IE 10+ */
-  color: black;
+.box img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
-:-moz-placeholder { /* Firefox 18- */
-  color: black;
+.box-title{
+    height: 87%;
+    width: 51%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+}
+.box-nombre-title{
+    height: 10%;
+    width: 100%;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 15px;
+    font-size: small;
 }

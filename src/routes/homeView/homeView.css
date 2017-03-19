@@ -92,3 +92,13 @@
 }
 
 
+input[type=submit] {
+    width: 10%;
+    height: 22px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
