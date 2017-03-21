@@ -2,10 +2,13 @@
   text-align: center;
 }
 .artist-view__logo {
-
-  float: left;
-  height: 30px;
-  padding-top: 20px;
+  height: 80px;
+}
+.artist-view__footer{
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  
 }
 
 .artist-view__header {
@@ -20,6 +23,12 @@
   width: 68%;
   height: 100px;
 }
+
+#img-artist-album{
+  width: 150px;
+  height: 150px;
+}
+
 .artist-view__info-logo{
 
   float: left;
@@ -39,9 +48,8 @@
   background-color: #fff;
   padding-left:20px;
   padding-top: 0;
-  margin-left: -200px;
-  padding-left: 25px;
-  -moz-border-radius: 5px;
+  margin-right: 40px;
+    -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #000000;
@@ -80,12 +88,14 @@ ul li {
 hr{
   border-top: 3px solid #000000;
 }
-.artist-view__footer{
-  width: 100%;
-  height: 10px;
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
+
+.artist-view_logoPrinc {
+
+  float: left;
+  height: 30px;
+  padding-top: 20px;
 }
+
 
 /*------------------*/
 

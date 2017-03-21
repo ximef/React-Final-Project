@@ -90,3 +90,33 @@ hr{
 .cuerpo{
   text-align: center;
 }
+/*---------------------*/
+
+.artist-view__results{
+  text-align: center;
+}
+.box-img{
+    height: 87%;
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.box-title{
+    height: 87%;
+    width: 51%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+}
+h4{
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}

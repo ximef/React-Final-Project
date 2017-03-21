@@ -2,7 +2,6 @@ import './mainView.css';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logoSpotify from '../../assets/spotify-logo-.jpg';
-import logogif from '../../assets/spotify-logo2.gif';
 
 class MainView extends Component {
     render() {
